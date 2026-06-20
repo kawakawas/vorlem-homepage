@@ -2,6 +2,8 @@
 
 VORLEMの輸入販売事業・取扱商品紹介サイト用の静的HTML/CSSです。
 
+公開URLは `https://store.vorlem.com/` を想定しています。
+
 ## ファイル構成
 
 ```text
@@ -26,9 +28,9 @@ VORLEMの輸入販売事業・取扱商品紹介サイト用の静的HTML/CSSで
 1. Xserverのサーバーパネル、またはFTPソフトにログインします。
 2. `vorlem.com` の公開フォルダを開きます。一般的には `public_html` 配下の対象ドメインフォルダです。
 3. `index.html`、`products.html`、`privacy.html`、`style.css`、`images` フォルダをアップロードします。
-4. ブラウザで `https://vorlem.com/` を開き、トップページが表示されるか確認します。
-5. `https://vorlem.com/privacy.html` を開き、プライバシーポリシーが表示されるか確認します。
-6. `https://vorlem.com/products.html` を開き、取扱商品一覧が表示されるか確認します。
+4. ブラウザで `https://store.vorlem.com/` を開き、トップページが表示されるか確認します。
+5. `https://store.vorlem.com/privacy.html` を開き、プライバシーポリシーが表示されるか確認します。
+6. `https://store.vorlem.com/products.html` を開き、取扱商品一覧が表示されるか確認します。
 
 ## 公開前チェック
 
@@ -41,6 +43,16 @@ VORLEMの輸入販売事業・取扱商品紹介サイト用の静的HTML/CSSで
 - LINE問い合わせやAmazonリンクの正式URLが決まっている場合、`href="#"` を差し替えたか
 - 事業者の正式名称、所在地、販売条件など、公開前に確定情報へ差し替える必要がないか
 - スマートフォン表示で文字やボタンがはみ出していないか
+
+## GitHub Pages カスタムドメイン
+
+GitHub Pagesで公開する場合は、リポジトリ直下の `CNAME` に以下を設定しています。
+
+```text
+store.vorlem.com
+```
+
+このサイトは静的HTML/CSSで作成しており、ViteやReact Routerは使用していません。CSS、画像、内部リンクは旧GitHub Pagesサブパス前提ではなく、`store.vorlem.com` のルートで表示できる相対パスにしています。
 
 ## 編集メモ
 
