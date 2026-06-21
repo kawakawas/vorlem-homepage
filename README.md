@@ -13,9 +13,10 @@ VORLEMの輸入販売事業・取扱商品紹介サイト用の静的HTML/CSSで
 ├── privacy.html
 ├── style.css
 └── images/
-    ├── logo.png
-    ├── hero.jpg
     ├── product.jpg
+    ├── product-main.png
+    ├── product-pump-storage.png
+    ├── product-comfort.png
     ├── pump.jpg
     ├── compact.jpg
     └── set.jpg
@@ -62,3 +63,4 @@ store.vorlem.com
 - 誇大表現や、実績を断定する表現は避けています。
 - LINE問い合わせは `https://lin.ee/nqQ9LYh` に設定しています。
 - Amazonリンクは未確定前提で `#` にしています。
+- 個人名・個人住所は掲載していません。
