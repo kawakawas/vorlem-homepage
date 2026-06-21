@@ -258,6 +258,10 @@ h3 {
   background: linear-gradient(180deg, var(--sand), #EEE8DC);
 }
 
+.product-section .product-layout {
+  grid-template-columns: minmax(0, 1.12fr) minmax(0, 0.88fr);
+}
+
 .image-frame {
   position: relative;
   min-height: 420px;
@@ -308,6 +312,10 @@ h3 {
   height: auto;
   object-fit: contain;
   background: var(--white);
+}
+
+.product-image {
+  max-width: 760px;
 }
 
 .check-list {
