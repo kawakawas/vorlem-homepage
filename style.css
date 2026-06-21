@@ -296,6 +296,24 @@ h3 {
   z-index: 1;
 }
 
+.product-image,
+.product-list-image {
+  min-height: 0;
+}
+
+.product-image::before,
+.product-list-image::before {
+  display: none;
+}
+
+.product-image img,
+.product-list-image img {
+  position: static;
+  height: auto;
+  object-fit: contain;
+  background: var(--white);
+}
+
 .check-list {
   display: grid;
   gap: 10px;
@@ -614,7 +632,7 @@ h3 {
 }
 
 .product-list-image {
-  min-height: 360px;
+  min-height: 0;
   box-shadow: none;
 }
 
