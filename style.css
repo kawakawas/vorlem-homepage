@@ -352,6 +352,10 @@ h3 {
 .product-gallery figure {
   margin: 0;
   overflow: hidden;
+  display: grid;
+  place-items: center;
+  min-height: clamp(520px, 54vw, 760px);
+  padding: 14px;
   border: 1px solid rgba(46, 74, 54, 0.12);
   border-radius: 8px;
   background: var(--white);
@@ -360,7 +364,8 @@ h3 {
 
 .product-gallery img {
   width: 100%;
-  height: auto;
+  height: 100%;
+  max-height: clamp(500px, 52vw, 730px);
   object-fit: contain;
   background: var(--white);
 }
