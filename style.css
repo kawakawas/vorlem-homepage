@@ -352,17 +352,20 @@ h3 {
 .product-gallery figure {
   margin: 0;
   overflow: hidden;
-  border: 1px solid rgba(46, 74, 54, 0.12);
+  line-height: 0;
+  border: 0;
   border-radius: 8px;
-  background: var(--white);
-  box-shadow: 0 12px 30px rgba(46, 74, 54, 0.07);
+  background: transparent;
+  box-shadow: none;
 }
 
 .product-gallery img {
   display: block;
   width: 100%;
   height: auto;
-  background: var(--white);
+  border-radius: 8px;
+  background: transparent;
+  box-shadow: 0 12px 30px rgba(46, 74, 54, 0.07);
 }
 
 .list-gallery {
